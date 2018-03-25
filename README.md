@@ -38,9 +38,12 @@ Used python api of the weather to download the dataset and stored into relationa
 Hourls - last 5 days should be available
 Daily - last 30 days should be available
 
-#  Once docker created run the below script
-
-cd /home/scripts
-sh run.sh
+######    Docker Commands  ######
+# Run Weather.sh  (this will create the docker and login for you) 
+  sh weather.sh 
+  
+#  docker created run the below script
+1. cd /home/scripts
+2. sh run.sh
 
 
